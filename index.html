@@ -1,0 +1,288 @@
+<!DOCTYPE html><html class="light" lang="es"><head>
+    <link rel="icon" href="image.ico" sizes="80x80">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>MÁS + POLLO - Sabor que se siente</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Space+Grotesk:wght@600;700;800;900&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "primary-fixed-dim": "#ffb3ac",
+                        "on-surface": "#1c1b1b",
+                        "on-tertiary-container": "#d8ffd0",
+                        "background": "#fcf9f8",
+                        "on-tertiary-fixed": "#002204",
+                        "surface-container-high": "#eae7e7",
+                        "on-background": "#1c1b1b",
+                        "primary-container": "#d32f2f",
+                        "tertiary": "#11651d",
+                        "surface-container": "#f0eded",
+                        "secondary-fixed-dim": "#f8bd2a",
+                        "error": "#ba1a1a",
+                        "on-tertiary": "#ffffff",
+                        "outline": "#8f6f6c",
+                        "surface-container-low": "#f6f3f2",
+                        "on-secondary-container": "#6f5100",
+                        "outline-variant": "#e4beba",
+                        "on-secondary": "#ffffff",
+                        "secondary-container": "#fec330",
+                        "inverse-primary": "#ffb3ac",
+                        "secondary": "#795900",
+                        "surface-container-lowest": "#ffffff",
+                        "surface-dim": "#dcd9d9",
+                        "tertiary-fixed": "#a3f69c",
+                        "on-primary": "#ffffff",
+                        "surface": "#fcf9f8",
+                        "primary-fixed": "#ffdad6",
+                        "tertiary-fixed-dim": "#88d982",
+                        "surface-tint": "#ba1a20",
+                        "on-secondary-fixed-variant": "#5c4300",
+                        "tertiary-container": "#307f34",
+                        "primary": "#af101a",
+                        "on-primary-fixed-variant": "#930010",
+                        "on-secondary-fixed": "#261a00",
+                        "on-error": "#ffffff",
+                        "surface-container-highest": "#e5e2e1",
+                        "on-primary-container": "#fff2f0",
+                        "secondary-fixed": "#ffdfa0",
+                        "on-error-container": "#93000a",
+                        "surface-bright": "#fcf9f8",
+                        "on-surface-variant": "#5b403d",
+                        "inverse-on-surface": "#f3f0ef",
+                        "error-container": "#ffdad6",
+                        "on-primary-fixed": "#410003",
+                        "inverse-surface": "#313030",
+                        "on-tertiary-fixed-variant": "#005312",
+                        "surface-variant": "#e5e2e1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "stack-lg": "64px",
+                        "section-padding": "120px",
+                        "stack-md": "24px",
+                        "container-max": "1280px",
+                        "margin-x": "32px",
+                        "stack-sm": "8px",
+                        "gutter": "24px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Plus Jakarta Sans"],
+                        "label-bold": ["Plus Jakarta Sans"],
+                        "headline-lg": ["Space Grotesk"],
+                        "headline-xl": ["Space Grotesk"],
+                        "headline-md": ["Space Grotesk"],
+                        "body-md": ["Plus Jakarta Sans"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "label-bold": ["14px", {"lineHeight": "1.0", "fontWeight": "700"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                        "headline-xl": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-secondary-container selection:text-on-secondary-container" data-mode="connect">
+<!-- TopAppBar -->
+<header class="bg-white/90 dark:bg-zinc-950/90 backdrop-blur-md fixed top-0 w-full z-50 border-b border-zinc-100 dark:border-zinc-800 shadow-sm font-['Space_Grotesk'] font-bold uppercase tracking-tight">
+<div class="flex justify-between items-center px-6 py-4 max-w-[1280px] mx-auto">
+<div class="flex items-center gap-4">
+<img alt="MÁS + POLLO Logo" class="w-12 h-12 rounded-full object-contain border-2 border-primary-container" data-alt="A cool stylized cartoon chicken mascot wearing sunglasses, rendered in bold vibrant colors, serving as the logo for a modern fast-casual dining brand, isolated against a clean background." src="Red Yellow Illustration Fried Chicken Logo.gif">
+<span class="text-2xl font-black text-red-700 dark:text-red-500 italic">MÁS + POLLO</span>
+</div>
+<nav class="hidden md:flex gap-8">
+<a class="text-red-700 dark:text-red-500 border-b-2 border-red-700 hover:text-red-600 transition-colors duration-200" href="#inicio">PÁGINA PRINCIPAL</a>
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-red-600 transition-colors duration-200" href="#paquetes"><br></a>
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-red-600 transition-colors duration-200" href="#galeria"><br></a>
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-red-600 transition-colors duration-200" href="#prensa"><br></a>
+<a class="text-zinc-600 dark:text-zinc-400 font-medium hover:text-red-600 transition-colors duration-200" href="#ubicacion"><br></a>
+</nav>
+<a class="bg-primary-container text-on-primary-container px-6 py-3 rounded-full font-label-bold text-label-bold hover:bg-primary transition-colors scale-95 active:scale-90 hidden md:block text-center" href="https://wa.me/526671261360">
+                Pedir Ahora
+            </a>
+<button class="md:hidden text-zinc-600">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</header>
+<main class="pt-[90px]">
+<!-- Hero Section -->
+<section class="relative min-h-[85vh] flex items-center bg-surface-container-low overflow-hidden" id="inicio">
+<div class="max-w-container-max mx-auto px-margin-x w-full grid grid-cols-1 lg:grid-cols-2 gap-stack-lg items-center relative z-10 py-section-padding">
+<div class="flex flex-col gap-stack-md max-w-xl">
+<div class="inline-flex items-center gap-2 bg-secondary-container text-on-secondary-container px-4 py-2 rounded-full font-label-bold text-label-bold w-max">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                        Recién Hecho
+                    </div>
+<h1 class="font-headline-xl text-headline-xl text-on-background">
+<span class="text-primary-container block">HORA DE</span>
+                        COMER!
+                    </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                        Sabor que se nota: Pollo asado fresco del día, preparado con ingredientes de la más alta calidad.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-4 pt-4">
+<a class="bg-tertiary-container text-on-tertiary-container px-8 py-4 rounded-full font-label-bold text-label-bold flex items-center justify-center gap-2 hover:bg-tertiary transition-colors shadow-sm" href="https://wa.me/526671261360">
+<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.89-4.443 9.892-9.896 0-2.639-1.026-5.119-2.889-6.982-1.864-1.865-4.346-2.891-6.987-2.891-5.451 0-9.892 4.444-9.894 9.896-.001 1.81.488 3.546 1.42 5.094l.244.404-1.042 3.812 3.899-1.023.414.246zm11.233-7.48c-.616-.309-3.644-1.799-4.209-2.003-.565-.204-.977-.309-1.388.309s-1.594 2.003-1.954 2.414c-.36.411-.72.463-1.336.154-3.418-1.706-5.147-3.528-6.398-5.922-.36-.689.605-.632 1.801-3.023.204-.411.103-.771-.051-1.08-.154-.309-1.388-3.344-1.902-4.577-.5-1.196-1.008-1.034-1.388-1.052-.36-.018-.772-.02-1.183-.02s-1.08.154-1.646.771c-1.852 2.055-1.472 5.568.616 8.351 2.87 3.821 6.551 5.927 10.375 7.551 1.054.448 1.879.716 2.52.917 1.058.332 2.022.285 2.783.173.85-.125 2.617-1.07 2.986-2.105.37-1.035.37-1.919.258-2.105-.112-.186-.421-.291-1.037-.6z"></path></svg>
+                            Haz tu pedido por WhatsApp
+                        </a>
+</div>
+</div>
+<div class="relative w-full aspect-[0.80] rounded-2xl overflow-hidden shadow-sm">
+<img alt="Pollo Asado Fresco" class="absolute inset-0 w-full h-full object-cover" data-alt="A mouth-watering high-resolution shot of fresh, perfectly roasted chicken glowing with savory juices, set against a modern, bright light-mode background. The scene is accented with subtle branding colors of deep red and sunny yellow." src="Copia de HORA DE.gif">
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+</div>
+</div>
+</section>
+<!-- Tradition & Specialties -->
+<section class="py-section-padding bg-surface" id="nosotros">
+<div class="max-w-container-max mx-auto px-margin-x">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-stack-lg">
+<div class="col-span-1 md:col-span-1 flex flex-col justify-center">
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Desde 2020</h2>
+<div class="w-16 h-2 bg-secondary-container mb-6"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Sirviendo con pasión y dedicación a nuestra comunidad. Cada comida es una experiencia de calidad y frescura.</p>
+</div>
+<div class="col-span-1 md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<div class="bg-surface-container rounded-2xl p-8 border border-surface-dim hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4" style="font-variation-settings: &quot;FILL&quot; 1;">local_drink</span>
+<h3 class="font-headline-md text-headline-md text-on-background mb-2">Aguas Frescas</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Te invitamos a probar nuestras deliciosas y refrescantes aguas frescas, el complemento perfecto para tu comida.</p>
+</div>
+<div class="bg-surface-container rounded-2xl p-8 border border-surface-dim hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-4xl text-primary-container mb-4" style="font-variation-settings: &quot;FILL&quot; 1;">local_fire_department</span>
+<h3 class="font-headline-md text-headline-md text-on-background mb-2">Salsa TX-MEX</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Descubre el sabor único de nuestra exclusiva Salsa TX-MEX, una mezcla perfecta de especias y tradición.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Digital Menu -->
+<section class="py-section-padding bg-surface-container-low" id="paquetes">
+<div class="max-w-container-max mx-auto px-margin-x text-center mb-stack-lg">
+<h2 class="font-headline-lg text-headline-lg text-on-background">Nuestro Menú</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-4 max-w-2xl mx-auto">Opciones para todos los antojos. Paquetes desde $260 y deliciosas milanesas desde $95.</p>
+</div>
+<div class="max-w-container-max mx-auto px-margin-x">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+<!-- Menu Image -->
+<div class="rounded-2xl overflow-hidden shadow-sm border border-surface-dim bg-surface relative aspect-[0.77]">
+<img alt="Menú MÁS + POLLO" class="absolute inset-0 w-full h-full object-cover" data-alt="A clean, modern digital menu board design featuring high-quality photography of roasted chicken meals, bold red and sunny yellow typography, and clear pricing set on a pristine white background." src="WhatsApp Image 2026-04-24 at 10.19.57 PM.jpeg">
+</div>
+<!-- Text Menu/Highlights (Bento style) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-gutter">
+<div class="bg-surface rounded-2xl p-6 border border-surface-dim flex flex-col justify-between sm:col-span-2 relative overflow-hidden">
+<div class="relative z-10">
+<div class="bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-bold text-label-bold w-max mb-4">Paquete Familiar</div>
+<h3 class="font-headline-md text-headline-md text-on-background">El Clásico</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">1 Pollo Entero, 2 Complementos, Tortillas y Salsa.</p>
+</div>
+<div class="font-headline-lg text-headline-lg text-primary-container mt-6 relative z-10">$260</div>
+</div>
+<div class="bg-primary-container text-on-primary-container rounded-2xl p-6 flex flex-col justify-center items-center text-center">
+<h3 class="font-headline-md text-headline-md mb-2">Milanesas</h3>
+<p class="font-body-md text-body-md opacity-90 mb-4">Crujientes y doradas, servidas con guarnición.</p>
+<div class="font-headline-md text-headline-md text-secondary-container">Desde $95</div>
+</div>
+<div class="bg-surface rounded-2xl p-6 border border-surface-dim flex flex-col justify-center items-center text-center">
+<span class="material-symbols-outlined text-4xl text-on-surface-variant mb-2">takeout_dining</span>
+<h3 class="font-headline-md text-headline-md text-on-background mb-2">Para Llevar</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Empaque especial para mantener el calor y sabor.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Dynamic Gallery -->
+<section class="py-section-padding bg-background" id="galeria">
+<div class="max-w-container-max mx-auto px-margin-x">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter auto-rows-[300px]">
+<div class="md:col-span-2 row-span-2 rounded-2xl overflow-hidden shadow-sm relative group bg-surface-container-low">
+<img alt="Calidad MÁS + POLLO" class="absolute inset-0 w-full h-full group-hover:scale-105 transition-transform duration-500 object-contain" data-alt="Dynamic, high-energy food photography showing a delicious assortment of fast-casual meals including chicken and sides, shot with bright, premium editorial lighting against a clean light-grey backdrop." src="el gran secreti.gif">
+<div class="absolute bottom-6 left-6 right-6 text-white">
+<div class="font-headline-md text-headline-md mb-2"><br></div>
+</div>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-sm relative bg-secondary-container flex flex-col items-center justify-center p-6 text-center group">
+<span class="material-symbols-outlined text-5xl text-on-secondary-container mb-4 group-hover:scale-110 transition-transform">phone_in_talk</span>
+<h3 class="font-headline-md text-headline-md text-on-secondary-container mb-2">Llámanos</h3>
+<p class="font-headline-md text-headline-md text-on-secondary-container font-black">667-126-1360</p>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-sm relative group border border-surface-dim bg-surface">
+<img alt="Experiencia MÁS + POLLO" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A vibrant, appetizing close-up of a signature meal combo, featuring perfectly cooked sides and sauces, styled with a modern, high-contrast aesthetic typical of premium food magazines." src="WhatsApp Image 2026-04-24 at 10.19.57 PM.jpeg">
+</div>
+</div>
+</div>
+</section>
+<!-- Press Section -->
+<section class="py-section-padding bg-surface-container-low border-y border-surface-dim" id="prensa">
+<div class="max-w-container-max mx-auto px-margin-x">
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto">
+<h2 class="font-label-bold text-label-bold text-primary-container uppercase tracking-wider mb-4">MÁS + POLLO en las Noticias</h2>
+<h3 class="font-headline-lg text-headline-lg text-on-background mb-8">Gael y su familia impulsan su negocio de pollos desde Las Américas con trabajo y dedicación</h3><p class="font-body-lg text-body-lg text-on-surface-variant mb-8">Culiacán, Sinaloa.- En medio de dudas, tropiezos y decisiones difíciles, una familia encontró en el fuego de un asador mucho más que una fuente de ingresos: halló una oportunidad para volver a empezar juntos. Gael Alejandro Zavala Luna, de apenas 18 años, es hoy el rostro de “Más + Pollo”, un emprendimiento familiar que, más allá de vender pollos asados, cuenta una historia de resiliencia, aprendizaje y amor por lo que se hace. Aunque el camino no comenzó de la mejor manera, el proyecto tiene raíces profundas. Su padre, Servando Zavala, lleva más de 25 años en el oficio, experiencia que se convirtió en la base para intentarlo una vez más.</p>
+<a class="inline-flex items-center gap-2 text-on-surface font-label-bold text-label-bold hover:text-primary-container transition-colors border-b-2 border-primary-container pb-1" href="https://www.tusbuenasnoticias.com/noticias/historias/2026/04/22/59137-con-trabajo-y-dedicacion-gael-y-su-familia-impulsan-mas--pollo-desde-las-americas-en-culiacan">Seguir leyendo, pulsa aquí <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+</section>
+<!-- Location -->
+<section class="py-section-padding bg-surface" id="ubicacion">
+<div class="max-w-container-max mx-auto px-margin-x">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-stack-lg items-center">
+<div>
+<h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Encuéntranos</h2>
+<div class="bg-surface-container rounded-2xl p-6 border border-surface-dim mb-6 flex items-start gap-4">
+<span class="material-symbols-outlined text-3xl text-primary-container mt-1" style="font-variation-settings: &quot;FILL&quot; 1;">location_on</span>
+<div>
+<h3 class="font-headline-md text-headline-md text-on-background mb-2">Sucursal Principal</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Calz. de las Américas Nte 3144,<br>U.A.S., C.U., Culiacán.</p>
+</div>
+</div>
+<div class="bg-surface-container rounded-2xl p-6 border border-surface-dim flex items-start gap-4">
+<span class="material-symbols-outlined text-3xl text-primary-container mt-1" style="font-variation-settings: &quot;FILL&quot; 1;">schedule</span>
+<div class="">
+<h3 class="font-headline-md text-headline-md text-on-background mb-2">Horario</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">Lunes a Sabado<br>12:00 AM - 5:00 PM</p>
+</div>
+</div>
+</div>
+<div class="rounded-2xl overflow-hidden shadow-sm h-[400px] border border-surface-dim bg-surface-container-high relative"><img alt="MÁS + POLLO Sucursal" class="w-full h-full object-cover" src="WhatsApp Image 2026-05-05 at 00.04.35.jpeg"><div class="absolute bottom-0 left-0 right-0 bg-black/50 backdrop-blur-sm p-4 text-white text-center"><span class="font-body-md text-body-md">Calz. de las Américas Nte 3144, Culiacán</span></div></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-zinc-50 dark:bg-zinc-900 font-['Space_Grotesk'] text-sm w-full rounded-t-lg border-t border-zinc-200 dark:border-zinc-800 flat no shadows">
+<div class="flex flex-col md:flex-row justify-between items-center px-8 py-12 max-w-[1280px] mx-auto gap-8">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="text-xl font-black text-red-700 dark:text-red-500">MÁS + POLLO</span>
+<p class="text-zinc-500 dark:text-zinc-400">© 2024 MÁS + POLLO. Sabor que se siente.</p>
+</div>
+<div class="flex flex-wrap justify-center gap-6">
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-red-700 dark:hover:text-red-400 underline underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#"><br></a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-red-700 dark:hover:text-red-400 underline underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#"><br></a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-red-700 dark:hover:text-red-400 underline underline-offset-4 opacity-80 hover:opacity-100 transition-opacity" href="#"><br></a>
+<a class="text-zinc-500 dark:text-zinc-400 hover:text-red-700 dark:hover:text-red-400 underline underline-offset-4 opacity-80 hover:opacity-100 transition-opacity flex items-center gap-1" href="https://wa.me/526671261360">
+                    WhatsApp
+                </a>
+</div>
+</div>
+</footer>
+
+
+</body></html>
